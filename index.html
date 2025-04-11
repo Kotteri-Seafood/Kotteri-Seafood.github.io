@@ -2,17 +2,18 @@
 layout: default
 ---
 
+<h1>ようこそ！Kotteri-Seafoodのブログへ</h1>
+<p>ここには最近の投稿が表示されます。日々の気づきや考えを綴っていきます。</p>
+
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      <p><em>{{ post.date | date: "%Y年%m月%d日" }}</em></p>
       <div class="entry">
         {{ post.excerpt }}
       </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">続きを読む</a>
     </article>
   {% endfor %}
 </div>
