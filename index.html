@@ -1,16 +1,18 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <title>Kotteri-Seafoodのホームページ</title>
-</head>
-<body>
-  <h1>ようこそ！Kotteri-Seafoodのホームページへ</h1>
-  <p>これは自分の感じたことや考えを残す場所です。</p>
+---
+layout: default
+---
 
-  <h2>最近の記事</h2>
-  <ul>
-    <li><a href="posts/2025-04-11.html">2025年4月11日：初めての投稿</a></li>
-  </ul>
-</body>
-</html>
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
