@@ -322,6 +322,12 @@ footer {
 }
 
 .post-card a {
-  color: inherit; // 親の文字色を継承する（= 青を解除）
+  color: #5c4d3d;
   text-decoration: none;
 }
+
+.post-card a:hover {
+  text-decoration: underline;
+  color: #7a3b3f; // hover時に少し赤みを足すのもアリ
+}
+
