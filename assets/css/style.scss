@@ -320,3 +320,8 @@ footer {
   color: gray;
   margin-bottom: 0.5rem;
 }
+
+.post-card a {
+  color: inherit; // 親の文字色を継承する（= 青を解除）
+  text-decoration: none;
+}
