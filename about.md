@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+### はじめまして
 
-### More Information
+この場所では、日々の中でふと立ち止まった瞬間や、言葉にしておきたい感情を記録しています。  
+“意味があること”だけが価値を持つような世の中で、あえて“意味のない時間”を大切にしたい。  
 
-A place to include any other types of information that you'd like to include about yourself.
+### 書いていること
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+- 日常に潜む感情や気づき  
+- 誰かと過ごした「何でもない」けれど特別な時間  
+- 忙しさの中に埋もれがちな“人間らしさ”について
