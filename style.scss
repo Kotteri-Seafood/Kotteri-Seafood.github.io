@@ -314,9 +314,12 @@ footer {
 
 .post-card h2 {
   font-size: 1.8rem;
-  margin: 0 0 0.5rem;
-  font-weight: 800;   // ← これを追加！数字が大きいほど太くなる
+  font-weight: 800;
+  margin: 0 0 0.6rem;
+  line-height: 1.4;
+  text-align: left;
 }
+
 
 .post-card p {
   font-size: 0.9rem;
