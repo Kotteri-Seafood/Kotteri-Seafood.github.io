@@ -318,6 +318,12 @@ footer {
   font-weight: 700;   // ← これを追加！数字が大きいほど太くなる
 }
 
+.post-card p {
+  font-size: 0.9rem;
+  color: #555; // ← 標準より少し淡いグレー。読みやすい
+  line-height: 1.6;
+}
+
 .post-date {
   font-size: 0.85rem;
   color: gray;
