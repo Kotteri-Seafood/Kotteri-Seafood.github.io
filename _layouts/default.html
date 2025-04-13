@@ -34,7 +34,11 @@
       </div>
     </div>
 
+  {% if page.url == "/" %}
+    <div id="main" role="main">
+  {% else %}
     <div id="main" role="main" class="container">
+  {% endif %}
       {{ content }}
     </div>
 
